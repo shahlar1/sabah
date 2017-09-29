@@ -1,0 +1,16 @@
+.box{
+	height: 400px;
+	width: 400px;
+	border:1px solid;
+	/*background:linear-gradient(to bottom, red ,green );
+	background-size: 50% 100%;*/
+
+	background:url('https://www.w3schools.com/css/img_fjords.jpg') no-repeat;
+	background-size: 100%  100%;
+	background-position: center center;
+	transition:all 1s;
+}
+.box:hover{
+	background-position: 0 100%;
+	background-size: 200% 200%;	
+}
